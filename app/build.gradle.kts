@@ -38,6 +38,17 @@ android {
 
 dependencies {
 
+    // Compose
+    implementation(libs.androidx.lifecycle.viewmodel.compose.android)//"androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7"
+    // Biometrics
+    implementation(libs.androidx.biometric)//"androidx.biometric:biometric:1.1.0"
+    // Security
+    implementation(libs.androidx.security.crypto)//"androidx.security:security-crypto:1.1.0-alpha06"
+    // DataStore
+    implementation(libs.androidx.datastore.preferences)//"androidx.datastore:datastore-preferences:1.1.2"
+    // Navigation
+    implementation (libs.androidx.navigation.compose)//"androidx.navigation:navigation-compose:2.8.5"
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
